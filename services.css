@@ -1,0 +1,293 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.titl{
+	width: 100%;
+	padding: 20px;
+	background:linear-gradient(#000080,#1a1aff);
+	position: fixed;
+	z-index: 222;
+}
+.titl a{
+	padding: 20px;
+}
+.titl a:hover{
+	padding: 10px;
+
+	transition: 1s;
+	color: green;
+	text-shadow: 1px 1px 15px yellow; 
+
+}
+.titl span{
+	color: #3399ff;
+	float: right;
+	cursor: pointer;
+}
+.header .content-box{
+	background:linear-gradient(blue,#808000 ,green);
+	width: 100%;
+	height: 450px;
+	padding-top: 50px;
+
+}
+.col-lg-4 ul{
+	 text-transform: uppercase;
+	list-style: none;
+	margin-top: 10%;
+	font-size: 0px;
+	color: #fff;
+	text-shadow: 1px 1px 15px blue;
+}
+.col-lg-4 img{
+	margin-top: 10%;
+}
+.col-lg-4 input{
+	margin-top: 10%;
+	border: 1px solid blue;
+	color: blue;
+	background-color:#3399ff;
+}
+.li{
+	font-size: 0px;
+
+}
+.li1{
+	animation: betty 2s linear;
+	animation-fill-mode: forwards;
+	color: black;
+}
+@keyframes betty{
+	from{font-size: 0px;}
+	to{font-size: 20px;color: #3399ff;}
+}
+.li2{
+	animation: betty 2s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+	color: black;
+}
+@keyframes betty{
+	from{font-size: 0px;}
+	to{font-size: 20px;color: #3399ff;}
+}
+.li3{
+	animation: betty 2s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 5s;
+	color: black;
+}
+
+@keyframes betty{
+	from{font-size: 0px;}
+	to{font-size: 20px;color: #3399ff;}
+}
+.li4{
+	animation: betty 2s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 7s;
+	color: black;
+}
+@keyframes betty{
+	from{font-size: 0px;}
+	to{font-size: 20px;color: #3399ff;}
+}
+
+
+.banner-text h2{
+	margin-top: 10px;
+	font-size: 64px;
+	text-align: center;
+	animation: bett 1s linear infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes bett{
+	from{text-shadow: 0px;}
+	to{ color: black;
+  text-shadow: 2px 2px 4px #000000;}
+}
+
+
+
+h1::after{
+	content: '';
+	background: grey;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 50px;
+}
+.services .icon img{
+	object-fit: cover;
+	margin: 20px auto;
+	height: 150px;
+	width: 150px;
+	border:1px solid grey;
+	border-radius: 50%;
+	margin-top: -10%;
+	
+}
+.services p{
+	font-size: 12px;
+	margin-top: 10px;
+	padding: 20px;
+
+
+}
+.services span{
+	color: grey;
+	transition: .5s;
+}
+.services .col-md-3:hover{
+	background-color: grey;
+	cursor: pointer;
+	color: #fff;
+	box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+	transition: .5s;
+	z-index: 22;
+}
+.services .col-md-3:hover .icon img{
+	border:5px solid grey;
+	color: white;
+}
+.services .col-md-3:hover span{
+	color: white;
+}
+.test {
+  transform:rotate(180deg);
+  transition:5s;
+  opacity:0;
+}
+.footer .content-box{
+	background:linear-gradient(#000080,green);
+	color: yellow;
+}
+.row li {
+	list-style: none;
+}
+.col-md-3 h5{
+	text-align: center;
+}
+.col-md-3 P{
+	text-align: center;
+}
+.carder{
+	width: 100%;
+	height: 450px;
+}
+.card{
+	box-shadow: 2px 4px 20px black;
+	width: 20%;
+	height: 100%;
+	float: left;
+	margin: 30px;
+	background-color: grey;
+
+}
+.card img{
+	width: 50%;
+	margin-left: 55px;
+	height: 40%;
+	text-align: center;
+	object-fit: cover;
+	margin: 20px auto;
+	height: 150px;
+	width: 150px;
+	border:1px solid grey;
+	border-radius: 50%;
+	margin-top: -10%;
+
+}
+
+.card:hover{
+	background-color:grey;
+}
+
+.line{
+	width: 2px;
+	height: 200px;
+	background-color: yellow;
+}
+.hr{
+	width: 100%;
+	height: 2px;
+	background-color: yellow;
+}
+.drop{
+	position: relative;
+	display: inline-block;
+}
+.drop-c{
+	display: none;
+	position: absolute;
+	min-width: 350px;
+	background:linear-gradient(#000080,#1a1aff);
+	box-shadow: 1px 2px 10px yellow;
+	border-top-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+
+}
+.drop:hover .drop-c{
+	display: block;
+
+}
+.drop-c li{
+	list-style: none;
+	color: #3399ff;
+	padding: 15px;
+}
+.drop-c li:hover{
+	padding: 10px;
+	border: 1px solid yellow;
+	transition: 1s;
+	color: green;
+	text-shadow: 1px 1px 15px yellow; 
+	border-top-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+}
+.main1{
+	
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+	background:linear-gradient(blue, yellow, green);
+}
+.main{
+	height: 100%;
+	width: 100%;
+}
+#image{
+    background:linear-gradient(blue, yellow, green)	
+    height: 500px;
+}
+#bac{
+
+background:linear-gradient(blue, yellow, green);
+}
+#bac{
+	animation:didu 10s infinite;
+	animation-fill-mode: forwards;
+	
+
+}
+@keyframes didu{
+	from{ 
+		width: 10px;
+ 		height: 0px;
+ 		margin-right: 10px: 
+	 }
+	to{
+		
+		width: 100%;
+ 		height: 80%;
+ 
+ 		background: linear linear-gradient(blue,yellow,green);
+ 		border-top-left-radius: 90%;
+ 		border-bottom-right-radius: 90%;
+ 		border-top-right-radius: 90%;
+ 		border-bottom-left-radius: 90%;
+	}
+}

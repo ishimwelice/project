@@ -1,0 +1,44 @@
+@media all and (max-width: 1000px) {
+  
+.titl a{
+
+
+	
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+
+	.titl a{
+      font-size: 9px;
+	}
+	.titl span{
+  font-size: 9px;
+}
+.row  .card{
+	width: 200px;
+	height: 100%;
+	margin: 20px;
+
+
+}
+.footer .row{
+	margin: 70px;
+
+}
+.banner-text h2{
+	font-size: 25px;
+	height: 110px;
+
+}
+
+.main1 .li{
+	font-size: -20px;
+}
+
+}
+
+
+.main2 h1{
+	font-size: 10px;
+}
